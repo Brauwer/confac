@@ -445,6 +445,7 @@ export const trans = {
     consultantType: 'Type',
     startDate: 'Start datum',
     endDate: 'Eind datum',
+    endCustomer: 'Project is bij eindklant',
     deleteConfirm: {
       title: 'Project verwijderen',
       content: 'Project wordt definitief verwijderd.',
@@ -469,6 +470,7 @@ export const trans = {
       rateType: 'Eenheid',
       ref: 'Referentie',
       advancedInvoicing: 'Specifieke facturatiedetails instellen',
+      endCustomer: 'Project is bij eindklant'
     },
     projectMonthConfig: {
       titleConfig: 'Maandelijkse facturatie',

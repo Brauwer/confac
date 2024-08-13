@@ -16,6 +16,7 @@ export const projectFormConfig: FullFormConfig = [
   {key: 'projectMonthConfig.inboundInvoice', component: 'switch'},
   {key: 'projectMonthConfig.changingOrderNr', component: 'switch'},
   {key: 'client.advancedInvoicing', component: 'switch'},
+  {key: 'client.endCustomer', component: 'switch'},
 
   {title: 'client.notes'},
   {key: 'notes', label: '', component: 'TextEditor', cols: 12},

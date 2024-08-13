@@ -475,6 +475,7 @@ export const trans = {
       timesheetCheck: 'Timesheets: Check report',
       inboundInvoice: 'Has inbound invoice',
       changingOrderNr: 'Order nr changes for each invocie',
+      endCustomer: 'Project is with end customer',
     },
     copy: {
       buttonText: 'Verlenging',
