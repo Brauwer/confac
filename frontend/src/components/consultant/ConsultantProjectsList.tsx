@@ -20,6 +20,7 @@ import {features} from '../../trans';
 import {Ellipsis} from '../controls/Tooltip';
 import {ToClipboardLabel} from '../controls/other/ToClipboardLabel';
 import {ContractIcons} from '../client/contract/ContractIcons';
+import { EndCustomerIcon } from '../client/contract/EndCustomerIcon';
 import {EditIcon} from '../controls/Icon';
 import {DeleteIcon} from '../controls/icons/DeleteIcon';
 import {Claim} from '../users/models/UserModel';
@@ -98,6 +99,10 @@ const consultantListConfig = (config: ConsultantFeatureBuilderConfig): IList<Con
     key: 'endDate',
     header: 'project.endDate',
     value: p => p.project?.endDate && formatDate(p.project?.endDate),
+  }, {
+    key: 'client',
+    header: 'project.client.endCustomer',
+    value: p => <EndCustomerIcon client={p.client} />,
   }, {
     key: 'client',
     header: 'project.client.clientId',

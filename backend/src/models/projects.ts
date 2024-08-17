@@ -9,6 +9,7 @@ export interface IProject {
   endDate?: string;
   partner?: ProjectClientModel;
   client: ProjectClientModel;
+  endCustomer: ProjectEndCustomerModel;
   projectMonthConfig: {
     timesheetCheck: boolean;
     inboundInvoice: boolean;
@@ -29,4 +30,11 @@ export interface ProjectClientModel {
   clientId: string;
   defaultInvoiceLines: ProjectClientInvoiceLine[];
   ref?: string;
+}
+
+export interface ProjectEndCustomerModel {
+  endCustomer: boolean
+  clientId?: string;
+  contact?: string;
+  notes?  : string;
 }

@@ -32,4 +32,10 @@ export type ClientModel = IAttachment & {
   defaultInvoiceLines: InvoiceLine[];
   frameworkAgreement: IContractModel;
   audit: IAudit;
+  endCustomer: {
+    active: boolean;
+    clientId: string;
+    contact: string;
+    notes: string;
+ }
 };

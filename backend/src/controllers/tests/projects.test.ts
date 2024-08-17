@@ -18,6 +18,9 @@ const createProject = (start: string, end?: string): IProject => ({
     clientId: 'client1',
     defaultInvoiceLines: [],
   },
+  endCustomer: {
+    endCustomer: false
+  },
   audit: {} as IAudit,
 });
 

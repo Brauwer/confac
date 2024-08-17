@@ -34,6 +34,12 @@ export function getNewClient(config?: ConfigModel): ClientModel {
       status: ContractStatus.NoContract,
       notes: '',
     },
+    endCustomer : {
+      active: false,
+      clientId: '',
+      contact: '',
+      notes: ''
+    },
     audit: {} as IAudit,
   };
 }
